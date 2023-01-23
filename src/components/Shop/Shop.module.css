@@ -1,0 +1,38 @@
+.container2{
+  
+    width: 80%;
+    margin-top:2vw;
+    margin-left:15vw;
+
+}
+.container{
+    text-align: center;
+}
+.containerImage{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 17.5vw;
+    height: 10rem;
+    border-radius: 1rem;
+    transition: all 1s ease-in-out;
+    background-color: rgb(247, 247, 236);
+}
+.card{
+    border: 1px solid #73AD21;
+    border-radius: 0rem;
+    margin-right: 1vw;
+    margin-bottom: 4%;
+}
+/* .card :hover{
+    transform: scaleY(0.85);
+    overflow: hidden;
+   
+} */
+
+.card :hover{
+    transform: scale(0.9);
+    overflow: hidden;
+}

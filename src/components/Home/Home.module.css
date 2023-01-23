@@ -1,0 +1,38 @@
+
+.banner{
+    display: flex;
+    width: 80%;
+    height: 25rem;
+    margin-top:2rem;
+    margin-left:10vw;
+    margin-right:10vw;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(168, 167, 167));
+}
+.container2{
+  
+    width: 80%;
+    margin-top:1vw;
+    margin-left:10vw;
+
+}
+.containerImage{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 23.5vw;
+    height: 200px;
+    border-radius: 1rem;
+    background-color: rgb(247, 247, 236);
+}
+.card{
+    border: 1px solid #73AD21;
+    border-radius: 1rem;
+    margin-right: 1vw;
+    margin-bottom: 5%;
+}
+.card :hover{
+    transform: scale(0.9);
+    overflow: hidden;
+}
